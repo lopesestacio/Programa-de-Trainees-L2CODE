@@ -44,7 +44,7 @@ FFFFFFFFFDFFFFFFFFFDFFFFFFFFFDFFFFFFFFF
 O 0 0 
 
 ```
-Também podemos passar os valores diretamente nos argumentos da função.
+Também podemos passar os valores diretamente como argumentos da função, para isto devemos definir info=False.
 ```
 new_position(width=5, length=5, actions="FDFEFDFEFDFEFDF", info=False)
 #output
