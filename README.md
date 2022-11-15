@@ -19,10 +19,10 @@ Arquivo: resolution.py - Escrito na linguagem Python.
 
 Função
 ------------
-Criamos uma função chamada new_position()
+Criamos uma função chamada `new_position()`
 
 new_position() possui os seguintes parâmetros:
-- width (int): Largura - default: 0
+- `width` (int): Largura - default: 0
 - length (int): Comprimento - default: 0
 - actions (str): Ações - default: str vazio
 - position (dict): Dicionario contendo posição inicial - default: {'x':0, 'y':0, 'o':'N'}
@@ -30,7 +30,7 @@ new_position() possui os seguintes parâmetros:
 
 A função pode ser usada sem passar nenhum dos parâmetros, ao iniciar será solicitado as seguintes entradas ao usuário:
 - 1° entrada: width length -----> (A largura e o comprimento separadas por espaço. Ex: 5 5)
-- 2° entrada: actions ----> (Uma sequencia de carecteres que correnspodem as ações do aspirador. Ex: FDFEFDFEFDFEFDF)
+- 2° entrada: actions ----> (Uma sequencia de carecteres que correspodem as ações do aspirador. Ex: FDFEFDFEFDFEFDF)
 
 ```
 new_position()
