@@ -11,14 +11,30 @@ Cada questão possui uma pasta com suas respectivas resoluções.
 - **[Question2](#-question-2)** - Desenvolvimento Web
 - **[Question3](#-question-3)** - Consulta / Banco de Dados
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
 📋 Question 1
 ------------
 Código escrito na linguagem Python.
 
+Criamos uma função chamada new_position()
+
+new_position() possui os seguintes parâmetros:
+- width (int): Largura - Valor padrão: 0
+- length (int): Comprimento - Valor padrão: 0
+- actions (str): Ações - Valor padrão: string vazia
+- position (dict): Dicionario contendo posição inicial - Valor padrão: {'x':0, 'y':0, 'o':'N'}
+- info(bool): True para iniciar o metodo input(), solicitando as entradas dos valores de width, length e actions. - Valor padrão: True
+
+A função pode ser usada sem passar nenhum dos parâmetros, ao iniciar será solicitado as seguintes entradas ao usuário:
+- 1° entrada: width length (A largura e o comprimento separadas por espaço. Ex: 10 10)
+- 2° entrada: actions (Uma sequencia de carecteres que correnspodem as ações do aspirador. Ex: FFFFFFFFFDFFFFFFFFFDFFFFFFFFFDFFFFFFFFF
 ```
-Python 3.10.0
+new_position()
+input:
+10 10
+FFFFFFFFFDFFFFFFFFFDFFFFFFFFFDFFFFFFFFF
+output:
+O 0 0 
 ```
 
 📋 Question 2
