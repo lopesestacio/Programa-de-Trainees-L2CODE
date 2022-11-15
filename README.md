@@ -13,7 +13,7 @@ Question3 - Consulta / Banco de Dados
 
 Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
-###📋 Question 1.
+### 📋 Question 1.
 ------------
 Código escrito na linguagem Python.
 
@@ -21,7 +21,7 @@ Código escrito na linguagem Python.
 Python 3.10.0
 ```
 
-###📋 Question 2.
+### 📋 Question 2.
 ------------
 
 Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
@@ -34,6 +34,6 @@ Dar exemplos
 ### 📋 Question 3.
 ------------
 
-
-Até finalizar
-
+```
+Dar exemplos
+```
