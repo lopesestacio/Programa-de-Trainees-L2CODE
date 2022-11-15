@@ -22,7 +22,7 @@ Função
 Criamos uma função chamada new_position()
 
 new_position() possui os seguintes parâmetros:
-- <width (int): Largura - Valor padrão: 0
+<!-- - width (int): Largura - default 0 -->
 - length (int): Comprimento - Valor padrão: 0
 - actions (str): Ações - Valor padrão: string vazia
 - position (dict): Dicionario contendo posição inicial - Valor padrão: {'x':0, 'y':0, 'o':'N'}
