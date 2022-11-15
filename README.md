@@ -22,15 +22,16 @@ Função
 Criamos uma função chamada new_position()
 
 new_position() possui os seguintes parâmetros:
-<!-- - width (int): Largura - default 0 -->
-- length (int): Comprimento - Valor padrão: 0
-- actions (str): Ações - Valor padrão: string vazia
-- position (dict): Dicionario contendo posição inicial - Valor padrão: {'x':0, 'y':0, 'o':'N'}
-- info (bool): True para iniciar o metodo input(), solicitando as entradas dos valores de width, length e actions. - Valor padrão: True
+- width (int): Largura - default: 0
+- length (int): Comprimento - default: 0
+- actions (str): Ações - default: str vazio
+- position (dict): Dicionario contendo posição inicial - default: {'x':0, 'y':0, 'o':'N'}
+- info (bool): inicia o metodo input(), solicitando as entradas dos valores de width, length e actions. - default: True
 
 A função pode ser usada sem passar nenhum dos parâmetros, ao iniciar será solicitado as seguintes entradas ao usuário:
-- 1° entrada: width length (A largura e o comprimento separadas por espaço. Ex: 5 5)
-- 2° entrada: actions (Uma sequencia de carecteres que correnspodem as ações do aspirador. Ex: FDFEFDFEFDFEFDF
+- 1° entrada: width length -----> (A largura e o comprimento separadas por espaço. Ex: 5 5)
+- 2° entrada: actions ----> (Uma sequencia de carecteres que correnspodem as ações do aspirador. Ex: FDFEFDFEFDFEFDF)
+
 ```
 new_position()
 #input
@@ -38,9 +39,11 @@ new_position()
 FFFFFFFFFDFFFFFFFFFDFFFFFFFFFDFFFFFFFFF
 #output
 O 0 0 
+
 ```
 Também podemos passar os valores diretamente nos argumentos da função.
-```new_position(width=5, length=5, actions="FDFEFDFEFDFEFDF", position={'x':0, 'y':0, 'o':'N'}, info=False
+```
+new_position(width=5, length=5, actions="FDFEFDFEFDFEFDF", info=False)
 #output
 O 0 0
 ```
