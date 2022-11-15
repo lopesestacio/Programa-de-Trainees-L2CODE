@@ -21,7 +21,7 @@ Função
 ------------
 Criamos uma função chamada `new_position()`
 
-new_position() possui os seguintes parâmetros:
+Parâmetros:
 - `width` (int): Largura - default: 0
 - `length` (int): Comprimento - default: 0
 - `actions` (str): Ações - default: str vazio
@@ -29,7 +29,7 @@ new_position() possui os seguintes parâmetros:
 - `info` (bool): inicia o metodo input(), solicitando as entradas dos valores de width, length e actions. - default: True
 
 Return: 
-- `position_final`(str): Contendo a orientação, e posição final do aspirador separados por espaço.
+- `position_final`(str): Contendo a orientação e posição final do aspirador separados por espaço.
 
 A função pode ser usada sem passar nenhum argumento, ao iniciar será solicitado as seguintes entradas ao usuário:
 - 1° entrada: width length -----> (A largura e o comprimento separadas por espaço. Ex: 5 5)
