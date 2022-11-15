@@ -19,7 +19,7 @@ Arquivo: `resolution.py` - Escrito na linguagem Python.
 
 Função
 ------------
-Criamos uma função chamada `new_position`(width=0, length=0, actions="", position={'x':0, 'y':0, 'o':'N'}, info=True)
+Criamos uma função chamada `new_position(width=0, length=0, actions="", position={'x':0, 'y':0, 'o':'N'}, info=True)`
 
 Parâmetros:
 - `width` (int): Largura - default: 0
