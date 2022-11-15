@@ -31,17 +31,18 @@ new_position() possui os seguintes parâmetros:
 A função pode ser usada sem passar nenhum dos parâmetros, ao iniciar será solicitado as seguintes entradas ao usuário:
 - 1° entrada: width length (A largura e o comprimento separadas por espaço. Ex: 5 5)
 - 2° entrada: actions (Uma sequencia de carecteres que correnspodem as ações do aspirador. Ex: FDFEFDFEFDFEFDF
-```new_position()
 ```
-```#input
+new_position()
+#input
 10 10
 FFFFFFFFFDFFFFFFFFFDFFFFFFFFFDFFFFFFFFF
-```
-```#output
+#output
 O 0 0 
 ```
 Também podemos passar os valores diretamente nos argumentos da função.
-```new_position(width=5, length=5, actions="FDFEFDFEFDFEFDF", position={'x':0, 'y':0, 'o':'N'}, info=False)
+```new_position(width=5, length=5, actions="FDFEFDFEFDFEFDF", position={'x':0, 'y':0, 'o':'N'}, info=False
+#output
+O 0 0
 ```
 📋 Question 2
 ------------
