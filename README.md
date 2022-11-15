@@ -17,7 +17,7 @@ Cada questão possui uma pasta com suas respectivas resoluções.
 
 Arquivo: `resolution.py` ---> Arquivo contendo a resolução da questão 1 escrito na linguagem Python.
 
-Função
+Resolução
 ------------
 Criamos uma função chamada `new_position(width=0, length=0, actions="", position={'x':0, 'y':0, 'o':'N'}, info=True)`
 
@@ -73,10 +73,12 @@ Geramos arquivos csv para as tabelas pessoas, contratos e pagamentos, que permit
 - `contratos.csv` ---> Tabela contrato em formato csv.
 - `pagamentos.csv` ---> Tabela pagamentos em formato csv.
 
+Resolução
+------------
 Para a resolução da questão 3 existem duas resoluções no `resolution.ipynb` usando ferramentas diferentes.
 
 - 1º Resolução: Utilizando as bibliotecas `tabula` para extração das tabelas no pdf e do `pandas` para realizar as consultas solicitadas.
-- 2° Resolução: Utilizando consultas `SQL` com sqlite para realizar as consultas solicitadas.
+- 2° Resolução: Utilizando consultas `SQL` com o sqlite para realizar as consultas solicitadas.
 
 Link útil
 
