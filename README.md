@@ -28,7 +28,7 @@ new_position() possui os seguintes parâmetros:
 - `position` (dict): Dicionario contendo posição inicial - default: {'x':0, 'y':0, 'o':'N'}
 - `info` (bool): inicia o metodo input(), solicitando as entradas dos valores de width, length e actions. - default: True
 
-A função pode ser usada sem passar nenhum dos parâmetros, ao iniciar será solicitado as seguintes entradas ao usuário:
+A função pode ser usada sem passar nenhum argumento, ao iniciar será solicitado as seguintes entradas ao usuário:
 - 1° entrada: width length -----> (A largura e o comprimento separadas por espaço. Ex: 5 5)
 - 2° entrada: actions ----> (Uma sequencia de carecteres que correspodem as ações do aspirador. Ex: FDFEFDFEFDFEFDF)
 
