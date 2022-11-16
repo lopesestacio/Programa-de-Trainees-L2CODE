@@ -25,7 +25,7 @@ Parâmetros:
 - `width` (int): Largura - default: 0
 - `length` (int): Comprimento - default: 0
 - `actions` (str): Ações - default: str vazio
-- `position` (dict): Dicionario contendo posição inicial - default: {'x':0, 'y':0, 'o':'N'}
+- `position` (dict): Dicionário contendo posição inicial - default: {'x':0, 'y':0, 'o':'N'}
 - `info` (bool): Parâmento que permite solicitar as entradas dos valores de width, length e actions. - default: True
 
 Return: 
@@ -33,7 +33,7 @@ Return:
 
 A função pode ser usada sem passar nenhum argumento, ao iniciar será solicitado as seguintes entradas ao usuário:
 - 1° entrada: width length -----> (A largura e o comprimento separadas por espaço. Ex: 5 5)
-- 2° entrada: actions ----> (Uma sequencia de carecteres que correspodem as ações do aspirador. Ex: FDFEFDFEFDFEFDF)
+- 2° entrada: actions ----> (Uma sequência de carecteres que correspodem as ações do aspirador. Ex: FDFEFDFEFDFEFDF)
 ```
 new_position()
 #input
@@ -47,7 +47,7 @@ Também podemos passar os valores diretamente como argumentos da função, para 
 ```
 new_position(width=5, length=5, actions="FDFEFDFEFDFEFDF", info=False)
 #output
-O 0 0
+L 4 4
 ```
 📋 Question 2
 ------------
@@ -77,9 +77,11 @@ Resolução
 ------------
 Para a resolução da questão 3 existem duas resoluções no `resolution.ipynb` usando ferramentas diferentes.
 
-- 1º Resolução: Utilizando as bibliotecas `tabula` para extração das tabelas no pdf e do `pandas` para realizar as consultas solicitadas.
-- 2° Resolução: Utilizando consultas `SQL` com o sqlite para realizar as consultas solicitadas.
+- 1º Resolução: Utilizando a biblioteca `pandas` para manipular e realizar as consultas solicitadas.
+- 2° Resolução: Utilizando a linguagem `SQL` com o sqlite para realizar as consultas solicitadas.
 
 Link útil
 
 - https://sqliteonline.com/ : Site sqlite online, podemos exportar os arquivo de dados `dados.db` e as consultas `inadimplemntes.sql` e `pagamento_completo.sql`, para avaliar as respostas, sem precisar ter o sqlite ou qualquer banco de dados SQL instalados localmente.
+
+[⬆ Voltar ao topo](#Programa-de-Trainees-L2CODE)
