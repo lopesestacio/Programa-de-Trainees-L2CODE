@@ -52,13 +52,12 @@ L 4 4
 📋 Question 2
 ------------
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Tecnologias utilizadas:
 
-Diga como essa etapa será:
+- `HTML`
+- `CSS`
+- `JavaScript`
 
-```
-Dar exemplos
-```
 📋 Question 3
 ------------
 Arquivos:
