@@ -56,7 +56,6 @@ Tecnologias utilizadas:
 
 - `HTML`
 - `CSS`
-- `JavaScript`
 
 📋 Question 3
 ------------
