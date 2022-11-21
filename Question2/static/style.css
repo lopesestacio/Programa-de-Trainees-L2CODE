@@ -333,15 +333,14 @@ h4{
   left: 100px;
 }
 
-.card-wrapper{
+.card-wrapper {
   overflow-x: auto;
 }
 
-.card{
+.card {
   display: flex;
   flex-flow: row nowrap;
   gap: 15px;
-  -ns
 }
 
 .card-wrapper::-webkit-scrollbar {
