@@ -62,7 +62,7 @@ Tecnologias utilizadas:
 Arquivos:
 - `resolution.ipynb`---> Jupyter notebook contendo a resolução da questão 3.
 - `dados.db`---> Arquivo de dados usado no sqlite contendo as tabelas pessoas, contratos e pagamentos.
-- `inadimplemntes.sql`---> Arquivo sql contendo a consulta para selecionar as pessoas inadimplementes.
+- `inadimplente.sql`---> Arquivo sql contendo a consulta para selecionar as pessoas inadimplentes.
 - `pagamento_completo.sql` ---> Arquivo sql contendo a consulta para selecionar as pessoas com pagamento completo.
 - `tabelas.pdf` ---> Arquivo pdf contendo as tabelas tiradas do pdf da avaliação técnica disponibilizado pela L2CODE.
 
